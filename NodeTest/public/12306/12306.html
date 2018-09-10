@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="css/common_css.css">
+    <link rel="stylesheet" href="css/validation.css">
+    <link rel="stylesheet" href="css/calendarNew.css">
+    <link rel="stylesheet" href="css/center.css">
+    <link rel="stylesheet" href="css/queryUserInfo_css.css">
+    <link rel="stylesheet" href="css/suggest.css">
+</head>
+<body>
+<div class="main"><!--系统信息 开始-->
+    <div class="layout order">
+        <form id="modifyUserForm" method="get" enctype="application/x-www-form-urlencoded">
+            <div class="lay-hd">个人信息</div>
+            <div class="lay-bd">
+                <div class="infoblock">
+                    <div class="tit clearfix">
+                        <div class="tit-txt"><span class="required">*</span>
+                            <label>基本信息</label>
+                        </div>
+                    </div>
+                    <!--编辑-->
+                    <div class="base" id="basic_info_base" style="display: block">
+                        <button type="button" id="decodeBtn">解密</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+    <!--系统信息 结束-->
+    <div class="tips-txt hide mt10"><h2>温馨提示：</h2>
+        <p>在互联网购买学生票后，须携带购票时所使用的有效身份证件、附有“学生火车票优惠卡”的学生证（均为原件）和订单号码于列车开车前到安装有学生火车票优惠卡识别器的车站售票窗口或铁路客票代售点换取纸质车票后乘车。 </p>
+    </div>
+
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="./js/enc.js"></script>
+</div>
+</body>
+</html>
